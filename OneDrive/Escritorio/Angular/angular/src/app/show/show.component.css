@@ -1,0 +1,24 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.thead-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-bordered {
+    border: 2px solid #dee2e6;
+}

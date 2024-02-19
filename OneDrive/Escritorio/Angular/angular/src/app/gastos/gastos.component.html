@@ -1,0 +1,36 @@
+<h1>Registro</h1>
+
+
+<br>
+<form action="">
+<div>
+    <label for="">name
+        <input type="text" #name name="name" id="" required>
+    </label>
+    <label for="">apellido
+        <input type="text" #apellido name="apellido" id="" required>
+    </label>
+    <label for="">cedula
+        <input type="text" #cedula name="cedula" id="" required>
+    </label>
+    <label for="">email
+        <input type="text" #email name="email" id="" required>
+    </label>
+    <label for="">telefono
+        <input type="text" #telefono name="telefono" id="" required>
+    </label>
+    <label for="">especialidad
+        <input type="text" #especialidad name="especialidad" id="" required>
+    </label>
+    <select #tipo name="tipo">
+        <option value="0">Elija una opcion</option>
+          <option value="1">paciente</option>
+          <option value="2">medico</option>
+    </select>
+    
+    <button type="button" (click)="registerP(name,apellido,cedula,email,telefono, especialidad, tipo)">Registrar</button>
+</div>
+
+</form>
+
+<h1>{{rtipo}}</h1>
